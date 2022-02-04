@@ -18,7 +18,7 @@ describe "DescriptiveStatistics" do
     end
 
     it "calculates the sum" do
-      expect(subject.sum).to eql(54.0)
+      expect(subject.sum).to eql(54)
     end
 
     it "calculates the mean" do
